@@ -60,3 +60,15 @@ const block5Container = document.querySelector('.pyy-block5-container');
 const block5 = document.querySelector('.pyy-block5');
 containerSizeFunc(block5Container, block5, 1440, 768)
 // block 5 end
+
+// block 6
+const block6Container = document.querySelector('.pyy-block6-container');
+const block6 = document.querySelector('.pyy-block6');
+containerSizeFunc(block6Container, block6, 1440, 768)
+// block 6 end
+
+// block 7
+const block7Container = document.querySelector('.pyy-block7-container');
+const block7 = document.querySelector('.pyy-block7');
+containerSizeFunc(block7Container, block7, 1440, 768)
+// block 7 end

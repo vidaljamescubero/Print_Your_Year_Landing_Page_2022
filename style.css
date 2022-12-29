@@ -2,6 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
 
+@font-face {
+    font-family: 'proxima';
+    src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+    src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff') format('woff'),
+        url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf') format('truetype'),
+        url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -18,6 +29,7 @@
     height: 100%;
     width: 100%;
 }
+
 
 /* block 1 */
 
@@ -366,11 +378,11 @@
 }
 
 .pyy-block3-1-card-image img {
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 .pyy-block3-1-card-author {
-    font-family: 'Lato';
+    font-family: 'proxima', 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 8px;
@@ -447,7 +459,7 @@
 
 @media only screen and (min-width: 769px) {
     .pyy-block3-1-card:hover img {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 }
 
@@ -640,7 +652,7 @@
 }
 
 .pyy-block5 img {
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 .pyy-block5-1 {
@@ -665,7 +677,7 @@
 }
 
 .pyy-block5-author {
-    font-family: 'Lato';
+    font-family: 'proxima', 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 8px;
@@ -757,15 +769,15 @@
 
 @media only screen and (min-width: 769px) {
     .pyy-block5-1:hover img {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 
     .pyy-block5-2:hover img {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 
     .pyy-block5-3:hover img {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 
     .pyy-block5-4-3:hover {
@@ -825,3 +837,504 @@
 }
 
 /* block 5 end */
+
+/* block 6 */
+
+.pyy-block6-container {
+    width: 100%;
+    height: 449px;
+}
+
+.pyy-block6 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.pyy-block6-gleam-container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 1px solid black;
+}
+
+@media only screen and (max-width: 1440px) {
+    .pyy-block6 {
+        width: 1440px;
+        height: 449px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .pyy-block6-container {
+        width: 100%;
+        height: 570px;
+    }
+
+    .pyy-block6 {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* block 6 end */
+
+/* block 7 */
+
+.pyy-block7-container {
+    width: 100%;
+    height: 4097px;
+    background: #F2F1EC;
+}
+
+.pyy-block7 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: #F2F1EC;
+}
+
+.pyy-block7-image-container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.pyy-block7-relative-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.pyy-block7-image-container img {
+    transition: 0.2s ease-in-out;
+}
+
+.pyy-block7-author {
+    font-family: 'proxima', 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 14px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #525151;
+}
+
+.pyy-block7-desktop-header {
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 55px;
+    color: #525151;
+}
+
+.pyy-block7-desktop-subhead {
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    color: #525151;
+    margin: 10px 0 20px 0;
+}
+
+.pyy-block7-desktop-cta {
+    background: #525151;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #F2F1EC;
+    height: 42px;
+    text-decoration: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pyy-block7-1 {
+    width: 100%;
+    position: absolute;
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 55px;
+    text-align: center;
+    color: #525151;
+    top: 73px;
+}
+
+.pyy-block7-2 {
+    width: 1440px;
+    height: 660px;
+    position: absolute;
+    top: 195px;
+    left: calc(50% - 720px);
+}
+
+.pyy-block7-2-1 {
+    width: 724px;
+    height: 490px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pyy-block7-2-2 {
+    width: 130px;
+    height: 154px;
+    position: absolute;
+    top: 506px;
+    left: 108px;
+}
+
+.pyy-block7-2-3 {
+    width: 130px;
+    height: 154px;
+    position: absolute;
+    top: 506px;
+    left: 249px;
+}
+
+.pyy-block7-2-4 {
+    position: absolute;
+    top: 139px;
+    left: 780px;
+}
+
+.pyy-block7-2-3-author {
+    position: absolute;
+    top: calc(100% + 10px);
+}
+
+.pyy-block7-desktop-cta-1 {
+    width: 179px;
+}
+
+.pyy-block7-3 {
+    position: absolute;
+    top: 774px;
+    width: 1440px;
+    left: calc(50% - 720px);
+}
+
+.pyy-block7-3-1 {
+    width: 540.05px;
+    height: 638px;
+    position: absolute;
+    top: 0;
+    left: 900px;
+}
+
+.pyy-block7-3-1-subtitle {
+    width: 405px;
+    height: 100px;
+    position: absolute;
+    top: 567.91px;
+    right: 477.05px;
+    z-index: 2;
+}
+
+.pyy-block7-3-2 {
+    position: absolute;
+    right: 629px;
+    top: 275px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.pyy-block7-3-2 .pyy-block7-desktop-subhead {
+    text-align: right;
+}
+
+.pyy-block7-desktop-cta-2 {
+    width: 219px;
+}
+
+.pyy-block7-4 {
+    position: absolute;
+    width: 1440px;
+    left: calc(50% - 720px);
+    top: 1550px;
+}
+
+.pyy-block7-4-1 {
+    position: absolute;
+    width: 451px;
+    height: 523px;
+    top: 0;
+    left: 0;
+}
+
+.pyy-block7-4-2 {
+    width: 151px;
+    height: 182px;
+    position: absolute;
+    top: 0;
+    left: 462px;
+}
+
+.pyy-block7-4-3 {
+    width: 151px;
+    height: 182px;
+    position: absolute;
+    top: 193px;
+    left: 462px;
+}
+
+.pyy-block7-4-2-author {
+    position: absolute;
+    top: calc(100% + 10px);
+}
+
+.pyy-block7-4-4 {
+    position: absolute;
+    top: 147px;
+    left: 643px;
+}
+
+.pyy-block7-desktop-cta-3 {
+    width: 179px;
+}
+
+.pyy-block7-5 {
+    position: absolute;
+    top: 2099px;
+    width: 1440px;
+    left: calc(50% - 720px);
+}
+
+.pyy-block7-5-1 {
+    position: absolute;
+    width: 444px;
+    height: 609px;
+    top: 0;
+    right: 0;
+}
+
+.pyy-block7-5-2 {
+    position: absolute;
+    width: 148px;
+    height: 250px;
+    top: 194px;
+    right: 466px;
+}
+
+.pyy-block7-5-2-author {
+    position: absolute;
+    top: calc(100% + 10px);
+}
+
+.pyy-block7-5-3 {
+    width: 148px;
+    height: 140px;
+    position: absolute;
+    right: 466px;
+    top: 473px;
+}
+
+.pyy-block7-5-4 {
+    position: absolute;
+    top: 226.91px;
+    right: 674px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.pyy-block7-5-4 .pyy-block7-desktop-subhead {
+    text-align: right;
+}
+
+.pyy-block7-desktop-cta-4 {
+    width: 189px;
+}
+
+.pyy-block7-6 {
+    position: absolute;
+    width: 1440px;
+    left: calc(50% - 720px);
+    top: 2739px;
+}
+
+.pyy-block7-6-1 {
+    width: 720px;
+    height: 483px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pyy-block7-6-2 {
+    width: 303.5px;
+    height: 100px;
+    position: absolute;
+    top: 414px;
+    left: 681px;
+}
+
+.pyy-block7-6-3 {
+    position: absolute;
+    top: 140.91px;
+    left: 789px;
+}
+
+.pyy-block7-desktop-cta-5 {
+    width: 172px;
+}
+
+.pyy-block7-7 {
+    position: absolute;
+    width: 1440px;
+    top: 3358.91px;
+    left: calc(50% - 720px);
+    height: 597px;
+}
+
+.pyy-block7-7-1 {
+    width: 480px;
+    height: 597px;
+    position: absolute;
+    top: 0;
+    left: 64px;
+}
+
+.pyy-block7-7-1-author {
+    position: absolute;
+    top: 16px;
+    right: 23px;
+    color: #000000;
+}
+
+.pyy-block7-7-2 {
+    width: 331px;
+    height: 356px;
+    position: absolute;
+    top: 0;
+    left: 553px;
+    z-index: 2;
+}
+
+.pyy-block7-7-2-author {
+    position: absolute;
+    color: #F2F1EC;
+    bottom: 10px;
+    right: 10px;
+}
+
+.pyy-block7-7-3 {
+    width: 138px;
+    height: 232px;
+    position: absolute;
+    top: 365px;
+    left: 553px;
+}
+
+.pyy-block7-7-3-author {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    color: #525151;
+}
+
+.pyy-block7-7-4 {
+    width: 184px;
+    height: 231px;
+    position: absolute;
+    top: 365px;
+    left: 700px;
+}
+
+.pyy-block7-7-5 {
+    width: 484px;
+    height: 597px;
+    position: absolute;
+    top: 0;
+    left: 893px;
+}
+
+.pyy-block7-7-5-author {
+    position: absolute;
+    left: 22px;
+    bottom: 15px;
+    color: #FFFFFF;
+}
+
+.pyy-block7-7-6 {
+    width: 450px;
+    height: 165px;
+    position: absolute;
+    bottom: 501.91px;
+    left: 140px;
+}
+
+.pyy-block7-7-7 {
+    width: 242px;
+    height: 224px;
+    position: absolute;
+    top: 444.09px;
+    left: 1090px;
+}
+
+.pyy-block7-mobile {
+    display: none;
+}
+
+@media only screen and (min-width: 769px) {
+    .pyy-block7-image-container:hover img {
+        transform: scale(1.05);
+    }
+
+    .pyy-block7-desktop-cta:hover {
+        transition: 0.3s ease-in-out;
+        -webkit-box-shadow: 3px 3px 12px 0px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 3px 3px 12px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: 3px 3px 12px 0px rgba(0, 0, 0, 0.3);
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .pyy-block7 {
+        width: 1440px;
+        height: 4097px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .pyy-block7-container {
+        width: 100%;
+        height: 1418px;
+    }
+
+    .pyy-block7 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .pyy-block7-1 {
+        font-size: 27px;
+        line-height: 31px;
+    }
+
+    .pyy-block7-mobile {
+        display: block;
+    }
+
+    .pyy-block7-desktop {
+        display: none;
+    }
+}
+
+/* block 7 end */
