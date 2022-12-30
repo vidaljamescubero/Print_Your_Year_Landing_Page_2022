@@ -31,6 +31,24 @@ function containerSizeFunc(containerDom, insideContainerDom, maxWidth, minWidth)
 
 };
 
+function getScript(source, callback) {
+    var script = document.createElement('script');
+    var prior = document.getElementsByTagName('script')[0];
+    script.async = 1;
+  
+    script.onload = script.onreadystatechange = function (_, isAbort) {
+      if (isAbort || !script.readyState || /loaded|complete/.test(script.readyState)) {
+        script.onload = script.onreadystatechange = null;
+        script = undefined;
+  
+        if (!isAbort && callback) setTimeout(callback, 0);
+      }
+    };
+  
+    script.src = source;
+    prior.parentNode.insertBefore(script, prior);
+  }
+
 // block 1
 const block1Container = document.querySelector('.pyy-block1-container');
 const block1 = document.querySelector('.pyy-block1');
@@ -71,4 +89,46 @@ containerSizeFunc(block6Container, block6, 1440, 768)
 const block7Container = document.querySelector('.pyy-block7-container');
 const block7 = document.querySelector('.pyy-block7');
 containerSizeFunc(block7Container, block7, 1440, 768)
+
+getScript('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js', () => {
+  getScript('https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js', () => {
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1,
+          center: true,
+        }
+      }
+    })
+
+
+    const prevArrow = document.querySelectorAll(".owl-prev");
+    const nextArrow = document.querySelectorAll(".owl-next");
+
+    for (let x = 0; x < 3; x++) {
+      prevArrow[x].innerHTML = `
+            <span class="material-symbols-outlined">
+            arrow_back
+            </span>
+
+                `
+
+      nextArrow[x].innerHTML = `
+            <span class="material-symbols-outlined">
+            arrow_forward
+            </span>
+
+                `
+    }
+  })
+})
 // block 7 end
+
+
+// block 8
+const block8Container = document.querySelector('.pyy-block8-container');
+const block8 = document.querySelector('.pyy-block8');
+containerSizeFunc(block8Container, block8, 1440, 768)
+// block 8 end
